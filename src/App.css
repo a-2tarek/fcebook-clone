@@ -1,0 +1,97 @@
+.main .home{
+    display: flex;
+    justify-content: flex-start;
+} 
+.home .contact-list {
+    position: fixed;
+}
+.home .posts-list{
+    margin-left: 250px;
+}
+.contacts {
+    font-family: inherit;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 10px;
+    font-weight: 5px;
+}
+.contact-list {
+ align-content: flex-start;
+ margin-top: 70px;
+} 
+.contact-list > li {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.contact-list > li > img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.contact-list :hover {
+    background-color:rgba(0, 0, 0, 0.11)
+}
+.contact-list > li > a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-family:'DM Sans', sans-serif;
+}
+.contact-list li {
+    list-style-type: none;
+}
+.navBar{
+    background-color: white;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 60px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 2px -2px rgb(214, 213, 213);
+    position: fixed;
+}
+.navBar ul{
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.navBar img{
+ width: 40px;
+ border-radius: 50%;
+}
+#bell {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+#menu{
+    margin-left: 10px;
+}
+.navPages h3{
+    color: white;
+}
+.search-bar input {
+    border: none;
+    background-color: #e9e9e9;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.posts {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.post-list {
+    overflow-y: scroll;
+}
+.post-list li ::-webkit-scrollbar {
+    display: none;
+}
